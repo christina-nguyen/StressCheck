@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12323F37FBB5D51BD89DCAEE7E66704B /* Pods-MentalHealthApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A83282B32085AC19944299DC0FF997D6 /* Pods-MentalHealthApp-dummy.m */; };
+		6AB137F372A114357995F9BFA67C75E1 /* Pods-MentalHealthAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDBCB134D193B06868A20371F311420 /* Pods-MentalHealthAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE00903C4879122563ED7670FA7FDBE /* Pods-MentalHealthApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B22A9E0DDAC480DF6883813A454F6F8 /* Pods-MentalHealthApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DED6746A302BC67CB90D1AF4A8629C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		97F6B7AB8C907767A2F47D23EF4F8566 /* Pods-MentalHealthAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C4D37B65426BB616E6F6052F352CFA /* Pods-MentalHealthAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16CC99F7125CE825E287549DFF06195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B00FA116DFF97E81866134E7134458D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B471BBC39FE50AD7F262F55A3DCC561C /* Pods-MentalHealthAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C5D0EEC2A4DC2953B2CA2D50ECAC6 /* Pods-MentalHealthAppTests-dummy.m */; };
+		EF621CCBC4677F07BC20FADC1F70DBD7 /* Pods-MentalHealthAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E160D11C18FF7270B6357ECF21E4E713 /* Pods-MentalHealthAppUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11F583ECD4D3681AD53A04B4E00FBC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49E9E7F3040F2C43D9AC3AA736153D6B;
+			remoteInfo = "Pods-MentalHealthApp";
+		};
+		B6EE93D3B5A6F8774841ECB372F2576E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49E9E7F3040F2C43D9AC3AA736153D6B;
+			remoteInfo = "Pods-MentalHealthApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012311B183DD6FF118011DD0B704E82F /* Pods_MentalHealthAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MentalHealthAppUITests.framework; path = "Pods-MentalHealthAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B7787D4B1A0677355537571D527533 /* Pods-MentalHealthAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalHealthAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		07FC7A7A9B20F6C29DADBDAE0CEDFD86 /* Pods-MentalHealthAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalHealthAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DBF7D05152A70DB75E012E4B62976A4 /* Pods-MentalHealthApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalHealthApp-Info.plist"; sourceTree = "<group>"; };
+		157F19C6CDC1C468B4393D1020BFE03C /* Pods-MentalHealthApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MentalHealthApp.modulemap"; sourceTree = "<group>"; };
+		1A5F7844D09FC10F6C13D96F4FD97B7B /* Pods-MentalHealthAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalHealthAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		264C5D0EEC2A4DC2953B2CA2D50ECAC6 /* Pods-MentalHealthAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MentalHealthAppTests-dummy.m"; sourceTree = "<group>"; };
+		32FB543DE632C508BF7210443EEBA4E4 /* Pods-MentalHealthAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalHealthAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D28BC192BA3D181CBC2F025753E1236 /* Pods-MentalHealthAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MentalHealthAppTests.modulemap"; sourceTree = "<group>"; };
+		437BECAEE723D5AA1174A746475C4029 /* Pods-MentalHealthAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalHealthAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		535F8D3D8F4C78A4EFFCF9FDBA9F4DE7 /* Pods-MentalHealthAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MentalHealthAppUITests.modulemap"; sourceTree = "<group>"; };
+		671F25E990A52FD0833E2467CE554879 /* Pods-MentalHealthApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalHealthApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		788905E09F8123676BE7E240D4E8E95D /* Pods-MentalHealthApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalHealthApp.debug.xcconfig"; sourceTree = "<group>"; };
+		96C4D37B65426BB616E6F6052F352CFA /* Pods-MentalHealthAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MentalHealthAppTests-umbrella.h"; sourceTree = "<group>"; };
+		9B22A9E0DDAC480DF6883813A454F6F8 /* Pods-MentalHealthApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MentalHealthApp-umbrella.h"; sourceTree = "<group>"; };
+		9BDBCB134D193B06868A20371F311420 /* Pods-MentalHealthAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MentalHealthAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0BF88EF2FF4587E078A7AF6FFD1DAB4 /* Pods-MentalHealthAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalHealthAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A83282B32085AC19944299DC0FF997D6 /* Pods-MentalHealthApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MentalHealthApp-dummy.m"; sourceTree = "<group>"; };
+		B40AB3A3D5108F8369C61BA92B509296 /* Pods-MentalHealthAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MentalHealthAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEE1123EF70544B4AB7E8DC1B59B2018 /* Pods-MentalHealthApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalHealthApp.release.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC78EE34E0BC7015FC7138FF3238D0FA /* Pods-MentalHealthApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MentalHealthApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE38B50F5749BE8E1AA544D644B5DB2A /* Pods_MentalHealthApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MentalHealthApp.framework; path = "Pods-MentalHealthApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E160D11C18FF7270B6357ECF21E4E713 /* Pods-MentalHealthAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MentalHealthAppUITests-dummy.m"; sourceTree = "<group>"; };
+		E847F0725A5F15CEF40DB72A3BE95B1B /* Pods-MentalHealthAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalHealthAppUITests-Info.plist"; sourceTree = "<group>"; };
+		EBE6438D8559F990545B00402BFF39AA /* Pods-MentalHealthAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MentalHealthAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE03BC2071EB626D108ECCDCAB9E0B8B /* Pods-MentalHealthAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalHealthAppTests-Info.plist"; sourceTree = "<group>"; };
+		FDC3AF79EA10F49C8B50CF9085F3393E /* Pods_MentalHealthAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MentalHealthAppTests.framework; path = "Pods-MentalHealthAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B22690228377DBB8C12BB3DB5D4ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16CC99F7125CE825E287549DFF06195 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EF1CD5AD06DA2A56C8CA71136F2DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DED6746A302BC67CB90D1AF4A8629C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97CDBD71609CC73A31AB29A3D0A5191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00FA116DFF97E81866134E7134458D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199A68B8BD7C7932B250DA63F190EC43 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB2237563B4A465A81060E4424D7BDB9 /* Pods-MentalHealthApp */,
+				D5BB23BA549360DCD778CB7C35506893 /* Pods-MentalHealthAppTests */,
+				E28E7AE24AD035422C3B0E82E6E23E53 /* Pods-MentalHealthAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AB2237563B4A465A81060E4424D7BDB9 /* Pods-MentalHealthApp */ = {
+			isa = PBXGroup;
+			children = (
+				157F19C6CDC1C468B4393D1020BFE03C /* Pods-MentalHealthApp.modulemap */,
+				DC78EE34E0BC7015FC7138FF3238D0FA /* Pods-MentalHealthApp-acknowledgements.markdown */,
+				671F25E990A52FD0833E2467CE554879 /* Pods-MentalHealthApp-acknowledgements.plist */,
+				A83282B32085AC19944299DC0FF997D6 /* Pods-MentalHealthApp-dummy.m */,
+				0DBF7D05152A70DB75E012E4B62976A4 /* Pods-MentalHealthApp-Info.plist */,
+				9B22A9E0DDAC480DF6883813A454F6F8 /* Pods-MentalHealthApp-umbrella.h */,
+				788905E09F8123676BE7E240D4E8E95D /* Pods-MentalHealthApp.debug.xcconfig */,
+				BEE1123EF70544B4AB7E8DC1B59B2018 /* Pods-MentalHealthApp.release.xcconfig */,
+			);
+			name = "Pods-MentalHealthApp";
+			path = "Target Support Files/Pods-MentalHealthApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F866749922F796AAF78F7CA2FFF89A08 /* Products */,
+				199A68B8BD7C7932B250DA63F190EC43 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5BB23BA549360DCD778CB7C35506893 /* Pods-MentalHealthAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D28BC192BA3D181CBC2F025753E1236 /* Pods-MentalHealthAppTests.modulemap */,
+				EBE6438D8559F990545B00402BFF39AA /* Pods-MentalHealthAppTests-acknowledgements.markdown */,
+				32FB543DE632C508BF7210443EEBA4E4 /* Pods-MentalHealthAppTests-acknowledgements.plist */,
+				264C5D0EEC2A4DC2953B2CA2D50ECAC6 /* Pods-MentalHealthAppTests-dummy.m */,
+				EE03BC2071EB626D108ECCDCAB9E0B8B /* Pods-MentalHealthAppTests-Info.plist */,
+				96C4D37B65426BB616E6F6052F352CFA /* Pods-MentalHealthAppTests-umbrella.h */,
+				04B7787D4B1A0677355537571D527533 /* Pods-MentalHealthAppTests.debug.xcconfig */,
+				1A5F7844D09FC10F6C13D96F4FD97B7B /* Pods-MentalHealthAppTests.release.xcconfig */,
+			);
+			name = "Pods-MentalHealthAppTests";
+			path = "Target Support Files/Pods-MentalHealthAppTests";
+			sourceTree = "<group>";
+		};
+		E28E7AE24AD035422C3B0E82E6E23E53 /* Pods-MentalHealthAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				535F8D3D8F4C78A4EFFCF9FDBA9F4DE7 /* Pods-MentalHealthAppUITests.modulemap */,
+				B40AB3A3D5108F8369C61BA92B509296 /* Pods-MentalHealthAppUITests-acknowledgements.markdown */,
+				07FC7A7A9B20F6C29DADBDAE0CEDFD86 /* Pods-MentalHealthAppUITests-acknowledgements.plist */,
+				E160D11C18FF7270B6357ECF21E4E713 /* Pods-MentalHealthAppUITests-dummy.m */,
+				E847F0725A5F15CEF40DB72A3BE95B1B /* Pods-MentalHealthAppUITests-Info.plist */,
+				9BDBCB134D193B06868A20371F311420 /* Pods-MentalHealthAppUITests-umbrella.h */,
+				437BECAEE723D5AA1174A746475C4029 /* Pods-MentalHealthAppUITests.debug.xcconfig */,
+				A0BF88EF2FF4587E078A7AF6FFD1DAB4 /* Pods-MentalHealthAppUITests.release.xcconfig */,
+			);
+			name = "Pods-MentalHealthAppUITests";
+			path = "Target Support Files/Pods-MentalHealthAppUITests";
+			sourceTree = "<group>";
+		};
+		F866749922F796AAF78F7CA2FFF89A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE38B50F5749BE8E1AA544D644B5DB2A /* Pods_MentalHealthApp.framework */,
+				FDC3AF79EA10F49C8B50CF9085F3393E /* Pods_MentalHealthAppTests.framework */,
+				012311B183DD6FF118011DD0B704E82F /* Pods_MentalHealthAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58500F8BE3162F45D9C088A61D0BDEC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE00903C4879122563ED7670FA7FDBE /* Pods-MentalHealthApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FDF667344B810458A553AC2C647B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB137F372A114357995F9BFA67C75E1 /* Pods-MentalHealthAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB7C392E239857A154C0F6ED7547F28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F6B7AB8C907767A2F47D23EF4F8566 /* Pods-MentalHealthAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49E9E7F3040F2C43D9AC3AA736153D6B /* Pods-MentalHealthApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AAF9ABCCE25760DC8DDCFDEC403B33 /* Build configuration list for PBXNativeTarget "Pods-MentalHealthApp" */;
+			buildPhases = (
+				58500F8BE3162F45D9C088A61D0BDEC7 /* Headers */,
+				3A46E126D2CAEEA08ECDBBA0B56BB6F1 /* Sources */,
+				F97CDBD71609CC73A31AB29A3D0A5191 /* Frameworks */,
+				F202C7109A88921416AD69F10DC10C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MentalHealthApp";
+			productName = "Pods-MentalHealthApp";
+			productReference = DE38B50F5749BE8E1AA544D644B5DB2A /* Pods_MentalHealthApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82045FE39F24CBBC1CBCD00412B5E2CB /* Pods-MentalHealthAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7C883FD08F861E2B4CD01005FD9F31 /* Build configuration list for PBXNativeTarget "Pods-MentalHealthAppTests" */;
+			buildPhases = (
+				FFB7C392E239857A154C0F6ED7547F28 /* Headers */,
+				3FA28E33BA5C9A12DB2E0D5C7127776A /* Sources */,
+				67B22690228377DBB8C12BB3DB5D4ADC /* Frameworks */,
+				082533E0A3FA195411F45F0264B7FA93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B7664BFA88CBABE57803C0F300BF576 /* PBXTargetDependency */,
+			);
+			name = "Pods-MentalHealthAppTests";
+			productName = "Pods-MentalHealthAppTests";
+			productReference = FDC3AF79EA10F49C8B50CF9085F3393E /* Pods_MentalHealthAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF8FCAD75BEA65367A38E4B40AAA12DB /* Pods-MentalHealthAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F870E218E93DF7C2977A16C5B58FCBD /* Build configuration list for PBXNativeTarget "Pods-MentalHealthAppUITests" */;
+			buildPhases = (
+				E4FDF667344B810458A553AC2C647B21 /* Headers */,
+				86872E5C6B79329F48361544753EB7B6 /* Sources */,
+				C7EF1CD5AD06DA2A56C8CA71136F2DF7 /* Frameworks */,
+				DC34EEFD6764AEB7A7C5EEDF2510C43A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6913B3BAD807AA5072E7773B22E56BC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-MentalHealthAppUITests";
+			productName = "Pods-MentalHealthAppUITests";
+			productReference = 012311B183DD6FF118011DD0B704E82F /* Pods_MentalHealthAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F866749922F796AAF78F7CA2FFF89A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E9E7F3040F2C43D9AC3AA736153D6B /* Pods-MentalHealthApp */,
+				82045FE39F24CBBC1CBCD00412B5E2CB /* Pods-MentalHealthAppTests */,
+				EF8FCAD75BEA65367A38E4B40AAA12DB /* Pods-MentalHealthAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		082533E0A3FA195411F45F0264B7FA93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC34EEFD6764AEB7A7C5EEDF2510C43A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F202C7109A88921416AD69F10DC10C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A46E126D2CAEEA08ECDBBA0B56BB6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12323F37FBB5D51BD89DCAEE7E66704B /* Pods-MentalHealthApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA28E33BA5C9A12DB2E0D5C7127776A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B471BBC39FE50AD7F262F55A3DCC561C /* Pods-MentalHealthAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86872E5C6B79329F48361544753EB7B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF621CCBC4677F07BC20FADC1F70DBD7 /* Pods-MentalHealthAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6913B3BAD807AA5072E7773B22E56BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MentalHealthApp";
+			target = 49E9E7F3040F2C43D9AC3AA736153D6B /* Pods-MentalHealthApp */;
+			targetProxy = B6EE93D3B5A6F8774841ECB372F2576E /* PBXContainerItemProxy */;
+		};
+		9B7664BFA88CBABE57803C0F300BF576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MentalHealthApp";
+			target = 49E9E7F3040F2C43D9AC3AA736153D6B /* Pods-MentalHealthApp */;
+			targetProxy = 11F583ECD4D3681AD53A04B4E00FBC70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A8806A150763F50EAF96E2C80111AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE1123EF70544B4AB7E8DC1B59B2018 /* Pods-MentalHealthApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalHealthApp/Pods-MentalHealthApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalHealthApp/Pods-MentalHealthApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C0AB034FE5D9A2A50EC0BFEDF4CD716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BF88EF2FF4587E078A7AF6FFD1DAB4 /* Pods-MentalHealthAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalHealthAppUITests/Pods-MentalHealthAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalHealthAppUITests/Pods-MentalHealthAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D2AC60CD9B697DB3D7E701B21C49D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B7787D4B1A0677355537571D527533 /* Pods-MentalHealthAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalHealthAppTests/Pods-MentalHealthAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalHealthAppTests/Pods-MentalHealthAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		228D363E81D86B220017D5C9060DAE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5F7844D09FC10F6C13D96F4FD97B7B /* Pods-MentalHealthAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalHealthAppTests/Pods-MentalHealthAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalHealthAppTests/Pods-MentalHealthAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D1E0F8E20B9C07FC44113815E72582E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437BECAEE723D5AA1174A746475C4029 /* Pods-MentalHealthAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalHealthAppUITests/Pods-MentalHealthAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalHealthAppUITests/Pods-MentalHealthAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA899EFAF5B693E4F90B154E159E52A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788905E09F8123676BE7E240D4E8E95D /* Pods-MentalHealthApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalHealthApp/Pods-MentalHealthApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalHealthApp/Pods-MentalHealthApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C7C883FD08F861E2B4CD01005FD9F31 /* Build configuration list for PBXNativeTarget "Pods-MentalHealthAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2AC60CD9B697DB3D7E701B21C49D38 /* Debug */,
+				228D363E81D86B220017D5C9060DAE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AAF9ABCCE25760DC8DDCFDEC403B33 /* Build configuration list for PBXNativeTarget "Pods-MentalHealthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA899EFAF5B693E4F90B154E159E52A4 /* Debug */,
+				1A8806A150763F50EAF96E2C80111AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F870E218E93DF7C2977A16C5B58FCBD /* Build configuration list for PBXNativeTarget "Pods-MentalHealthAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E0F8E20B9C07FC44113815E72582E5 /* Debug */,
+				1C0AB034FE5D9A2A50EC0BFEDF4CD716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
