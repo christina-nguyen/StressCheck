@@ -18,23 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbl-dx-0RW">
-                                <rect key="frame" x="241" y="257" width="110" height="104"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ilw-GU-OkT">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Pbl-dx-0RW" firstAttribute="leading" secondItem="HIY-Nh-BiQ" secondAttribute="leading" constant="241" id="YXs-AL-K8A"/>
-                            <constraint firstItem="Pbl-dx-0RW" firstAttribute="top" secondItem="HIY-Nh-BiQ" secondAttribute="top" constant="237" id="sBr-CO-Q7L"/>
+                            <constraint firstItem="Ilw-GU-OkT" firstAttribute="bottom" secondItem="HIY-Nh-BiQ" secondAttribute="bottom" id="37Y-eK-fG3"/>
+                            <constraint firstItem="Ilw-GU-OkT" firstAttribute="top" secondItem="HIY-Nh-BiQ" secondAttribute="top" id="Uaf-Mg-RCq"/>
+                            <constraint firstItem="Ilw-GU-OkT" firstAttribute="leading" secondItem="HIY-Nh-BiQ" secondAttribute="leading" id="dxj-fc-aEG"/>
+                            <constraint firstItem="Ilw-GU-OkT" firstAttribute="trailing" secondItem="HIY-Nh-BiQ" secondAttribute="trailing" id="tmu-cx-ykl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HIY-Nh-BiQ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="YIP" id="lk6-AM-hKc"/>
                     <connections>
-                        <outlet property="testlabel2" destination="Pbl-dx-0RW" id="yGW-FI-vqZ"/>
+                        <outlet property="scrollView" destination="Ilw-GU-OkT" id="ESh-ZT-Fcd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4YW-EG-fbe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -48,25 +47,13 @@
                     <view key="view" contentMode="scaleToFill" id="cyv-ku-WN3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Page 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idl-40-UKx">
-                                <rect key="frame" x="67" y="119" width="173" height="53"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Idl-40-UKx" firstAttribute="leading" secondItem="uFx-WZ-hxN" secondAttribute="leading" constant="67" id="Yvl-9I-bHC"/>
-                            <constraint firstItem="Idl-40-UKx" firstAttribute="top" secondItem="uFx-WZ-hxN" secondAttribute="top" constant="99" id="zYh-d8-bhl"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uFx-WZ-hxN"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Stress Graph" id="16C-Xk-ghs"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="testlabel" destination="Idl-40-UKx" id="v3y-gP-3NH"/>
+                        <outlet property="stressGraphBarItem" destination="16C-Xk-ghs" id="J8E-gh-nT0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OR8-wr-wqG" userLabel="First Responder" sceneMemberID="firstResponder"/>

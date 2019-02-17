@@ -11,10 +11,13 @@ import UIKit
 
 class StressGrapherViewController: UIViewController {
     
-    @IBOutlet weak var testlabel: UILabel!
+    @IBOutlet weak var stressGraphBarItem: UITabBarItem!
+    
+    var graphTabBarImage: UIImage! = UIImage(named: "warning.ico")
+//    let contentWidth =
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        testlabel.text = "dis is page 1"
+        stressGraphBarItem.selectedImage = graphTabBarImage
     }
 }
